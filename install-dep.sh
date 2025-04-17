@@ -986,39 +986,39 @@ if [[ "$OS" = "Ubuntu" || "$OS" = "debian" ]]; then
 	systemctl disable php8.1-fpm
 	systemctl stop php8.2-fpm
 	systemctl disable php8.2-fpm
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/apache2.conf -O /etc/apache2/apache2.conf
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/ports.conf -O /etc/apache2/ports.conf
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/000-default.conf -O /etc/apache2/sites-available/000-default.conf
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/default-ssl.conf -O /etc/apache2/sites-available/default-ssl.conf
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/apache2.conf -O /etc/apache2/apache2.conf
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/ports.conf -O /etc/apache2/ports.conf
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/000-default.conf -O /etc/apache2/sites-available/000-default.conf
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/default-ssl.conf -O /etc/apache2/sites-available/default-ssl.conf
 	wget http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz
 	tar -xzf ioncube_loaders_lin_x86-64.tar.gz -C /usr/local && rm -f ioncube_loaders_lin_x86-64.tar.gz
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/5.6/php.ini -O /etc/php/5.6/apache2/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/5.6/php.ini -O /etc/php/5.6/cli/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/5.6/php.ini -O /etc/php/5.6/fpm/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.0/php.ini -O /etc/php/7.0/apache2/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.0/php.ini -O /etc/php/7.0/cli/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.0/php.ini -O /etc/php/7.0/fpm/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.1/php.ini -O /etc/php/7.1/apache2/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.1/php.ini -O /etc/php/7.1/cli/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.1/php.ini -O /etc/php/7.1/fpm/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.2/php.ini -O /etc/php/7.2/apache2/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.2/php.ini -O /etc/php/7.2/cli/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.2/php.ini -O /etc/php/7.2/fpm/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.3/php.ini -O /etc/php/7.3/apache2/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.3/php.ini -O /etc/php/7.3/cli/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.3/php.ini -O /etc/php/7.3/fpm/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.4/php.ini -O /etc/php/7.4/apache2/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.4/php.ini -O /etc/php/7.4/cli/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/7.4/php.ini -O /etc/php/7.4/fpm/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/8.0/php.ini -O /etc/php/8.0/apache2/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/8.0/php.ini -O /etc/php/8.0/cli/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/8.0/php.ini -O /etc/php/8.0/fpm/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/8.1/php.ini -O /etc/php/8.1/apache2/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/8.1/php.ini -O /etc/php/8.1/cli/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/8.1/php.ini -O /etc/php/8.1/fpm/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/8.2/php.ini -O /etc/php/8.2/apache2/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/8.2/php.ini -O /etc/php/8.2/cli/php.ini
-	wget https://raw.githubusercontent.com/amidevous/ubuntu-apache-install/master/8.2/php.ini -O /etc/php/8.2/fpm/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/5.6/php.ini -O /etc/php/5.6/apache2/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/5.6/php.ini -O /etc/php/5.6/cli/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/5.6/php.ini -O /etc/php/5.6/fpm/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.0/php.ini -O /etc/php/7.0/apache2/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.0/php.ini -O /etc/php/7.0/cli/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.0/php.ini -O /etc/php/7.0/fpm/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.1/php.ini -O /etc/php/7.1/apache2/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.1/php.ini -O /etc/php/7.1/cli/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.1/php.ini -O /etc/php/7.1/fpm/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.2/php.ini -O /etc/php/7.2/apache2/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.2/php.ini -O /etc/php/7.2/cli/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.2/php.ini -O /etc/php/7.2/fpm/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.3/php.ini -O /etc/php/7.3/apache2/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.3/php.ini -O /etc/php/7.3/cli/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.3/php.ini -O /etc/php/7.3/fpm/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.4/php.ini -O /etc/php/7.4/apache2/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.4/php.ini -O /etc/php/7.4/cli/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/7.4/php.ini -O /etc/php/7.4/fpm/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/8.0/php.ini -O /etc/php/8.0/apache2/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/8.0/php.ini -O /etc/php/8.0/cli/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/8.0/php.ini -O /etc/php/8.0/fpm/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/8.1/php.ini -O /etc/php/8.1/apache2/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/8.1/php.ini -O /etc/php/8.1/cli/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/8.1/php.ini -O /etc/php/8.1/fpm/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/8.2/php.ini -O /etc/php/8.2/apache2/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/8.2/php.ini -O /etc/php/8.2/cli/php.ini
+	wget https://raw.githubusercontent.com/rongansop/ubuntu-apache-install/master/8.2/php.ini -O /etc/php/8.2/fpm/php.ini
 	systemctl restart apache2
 	apt-get -y install phpmyadmin
 	dpkg-reconfigure phpmyadmin
